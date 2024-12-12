@@ -1,0 +1,19 @@
+﻿<Window x:Class="Zachet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zachet"
+        mc:Ignorable="d"
+        Title="MainWindow" WindowStartupLocation="CenterScreen" Height="420" Width="366">
+    <Grid Background="#e9dbc6">
+
+        <Button Background=" #cdaa79" Content="Туристы" HorizontalAlignment="Center" Margin="0,75,0,0" VerticalAlignment="Top" Width="175" Height="34" Click="Button_Click" />
+        <Button Background=" #cdaa79" Content="Пособники" HorizontalAlignment="Center" Margin="0,125,0,0" VerticalAlignment="Top" Width="175" Height="34" Click="Button_Click_1" />
+        <Button Background=" #cdaa79" Content="Экскурсиолюбы" HorizontalAlignment="Center" Margin="0,175,0,0" VerticalAlignment="Top" Width="175" Height="34" Click="Button_Click_2"  />
+        <Button Background=" #cdaa79" Content="Агенство" HorizontalAlignment="Center" Margin="0,225,0,0" VerticalAlignment="Top" Width="175" Height="34" Click="Button_Click_3" />
+       
+
+
+    </Grid>
+</Window>
